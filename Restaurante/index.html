@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ícones de caixa -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body> <!-- Cabeçalho -->
+    <header> <!-- Navegação -->
+        <div class="nav container"> <!-- Logotipo --> <a href="#" class="logo"> <img src="images/logo1.png"
+                    alt="Logotipo do restaurante"> </a> <!-- Barra de navegação -->
+            <div class="navbar"> <a href="#" class="nav-link">Página inicial</a> <a href="#" class="nav-link">Itens em
+                    destaque</a> <a href="#" class="nav-link">Menu</a> <a href="#" class="nav-link">Depoimentos</a> <a
+                    href="#" class="nav-link">Blog</a> </div> <!-- Ícones de navegação -->
+            <div class="nav-icons"> <a href="#"><i class='bx bx-user'></i></a> <a href="#" class="cart"> <i
+                        class='bx bx-shopping-bag'></i> <span>0</span> </a> <!-- Ícone de menu -->
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- Seção inicial -->
+    <section class="home" id="home">
+        <div class="home-content container">
+            <div class="home-text">
+                <h1>Hambúrguer de carne bovina grelhada</h1>
+                <p>Oferta especial somente às TERÇAS-FEIRAS de cada semana</p>
+                <h3>Compre 1 e leve outro GRÁTIS!</h3> <a href="#" class="btn">Peça agora</a>
+            </div> <!-- Imagem inicial --> <img src="images/home.png" alt="Hambúrguer grelhado">
+        </div> <!-- Home Mask Image --> <img src="images/home-mask.png" alt="Máscara para sobreposição na seção inicial"
+            class="home-mask">
+    </section> <!-- Features -->
+    <div class="features container">
+        <div class="feature-box"> <img src="images/feature-1.svg" alt="Material premium" class="feature-img">
+            <div class="feature-text">
+                <h3>Material Premium</h3>
+                <p>Feito com materiais premium</p>
+            </div>
+        </div>
+        <div class="feature-box"> <img src="images/feature-2.svg" alt="Entrega rápida" class="feature-img">
+            <div class="feature-text">
+                <h3>Entrega Rápida</h3>
+                <p>Receba em 45 minutos</p>
+            </div>
+        </div>
+        <div class="feature-box"> <img src="images/feature-3.svg" alt="Entrega pontual" class="feature-img">
+            <div class="feature-text">
+                <h3>Entrega Pontual</h3>
+                <p>Serviço profissional e amigável</p>
+            </div>
+        </div>
+        <div class="feature-box"> <img src="images/feature-4.svg" alt="Pagamentos seguros" class="feature-img">
+            <div class="feature-text">
+                <h3>Pagamentos Seguros</h3>
+                <p>Estacionamento disponível</p>
+            </div>
+        </div>
+    </div> <!-- Feature Menu -->
+    <section class="feature-menu container" id="feature-menu">
+        <h2 class="heading">Cardápio em Destaque do Pesto</h2>
+        <div class="feature-menu-content">
+            <div class="feature-menu-box"> <img src="images/feature-menu-1.png" alt="Imagem do menu - Churrasco">
+                <h3>Churrasco</h3>
+                <p>(4 itens)</p>
+            </div>
+            <div class="feature-menu-box"> <img src="images/feature-menu-2.png" alt="Imagem do menu - Hambúrgueres">
+                <h3>Hambúrgueres</h3>
+                <p>(8 itens)</p>
+            </div>
+            <div class="feature-menu-box"> <img src="images/feature-menu-3.png" alt="Imagem do menu - Frangos">
+                <h3>Frangos</h3>
+                <p>(4 itens)</p>
+            </div>
+            <div class="feature-menu-box"> <img src="images/feature-menu-4.png" alt="Imagem do menu - Bebidas">
+                <h3>Bebidas</h3>
+                <p>(4 itens)</p>
+            </div>
+            <div class="feature-menu-box"> <img src="images/feature-menu-5.png" alt="Imagem do menu - Peixes">
+                <h3>Peixes</h3>
+                <p>(4 itens)</p>
+            </div>
+            <div class="feature-menu-box"> <img src="images/feature-menu-6.png" alt="Imagem do menu - Pizzas">
+                <h3>Pizzas</h3>
+                <p>(4 itens)</p>
+            </div>
+        </div>
+    </section> <!-- Itens -->
+    <section class="items" id="items">
+        <h2 class="heading container">Nossos Itens em Destaque</h2>
+        <div class="item-content container">
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-1.png" alt="Spicy Burger">
+                <h2>Spicy Burger</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300.00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-2.png" alt="Mutton BBQ">
+                <h2>Mutton BBQ</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300.00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-3.png" alt="Beef Burger">
+                <h2>Beef Burger</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300.00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-4.png"
+                    alt="Frango Com Bacon">
+                <h2>Frango Com Bacon</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300.00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-5.png"
+                    alt="Peixe Pequeno Quies">
+                <h2>Peixe Pequeno Quies</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300,00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-6.png" alt="Mixes Pizza">
+                <h2>Mixes Pizza</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300,00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-7.png" alt="Meta Burger">
+                <h2>Meta Burger</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300,00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+            <div class="item-box"> <span class="sale">Promoção</span> <img src="images/item-8.png" alt="Chicken Tiny">
+                <h2>Chicken Tiny</h2>
+                <div class="price">
+                    <h3>De $220.000 por</h3>
+                    <p>$300.00</p>
+                </div> <a href="#" class="item-btn">Ver Produto</a>
+            </div>
+        </div>
+    </section> <!-- Menu -->
+    <section class="menu-container" id="menu-container">
+        <h2 class="heading container">Painel de Cardápio em Destaque do Pesto</h2> <img src="images/menu-mask.png"
+            alt="Máscara para sobreposição no menu" class="menu-mask">
+        <div class="menu-content container">
+            <div class="menu-box">
+                <h2>Hambúrgueres</h2>
+                <div class="burgers-content">
+                    <div class="m-item-box"> <img src="images/burger-1.png" alt="Meta Burger">
+                        <div class="m-item-des">
+                            <h3>Meta Burger</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220,00 por</h3>
+                            <p>$300,00</p>
+                        </div>
+                    </div>
+                    <div class="m-item-box"> <img src="images/burger-2.png" alt="Spicy Meta Burger">
+                        <div class="m-item-des">
+                            <h3>Spicy Meta Burger</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220,00 por</h3>
+                            <p>$300,00</p>
+                        </div>
+                    </div>
+                    <div class="m-item-box"> <img src="images/burger-3.png" alt="Spicy Burger">
+                        <div class="m-item-des">
+                            <h3>Hambúrguer Picante</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220,00 por</h3>
+                            <p>$300,00</p>
+                        </div>
+                    </div>
+                    <div class="m-item-box"> <img src="images/burger-4.png" alt="Beef Burger">
+                        <div class="m-item-des">
+                            <h3>Beef Burger</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220,00 por</h3>
+                            <p>$300,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <h2>Churrasco</h2>
+                <div class="bbq-content">
+                    <div class="m-item-box"> <img src="images/bbq-1.png" alt="Mutton BBQ">
+                        <div class="m-item-des">
+                            <h3>Mutton BBQ</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220,00 por</h3>
+                            <p>$300,00</p>
+                        </div>
+                    </div>
+                    <div class="m-item-box"> <img src="images/bbq-2.png" alt="Chicken BBQ">
+                        <div class="m-item-des">
+                            <h3>Chicken BBQ</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220,00 por</h3>
+                            <p>$300,00</p>
+                        </div>
+                    </div>
+                    <div class="m-item-box"> <img src="images/bbq-3.png" alt="Beef BBQ">
+                        <div class="m-item-des">
+                            <h3>Beef BBQ</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De US$ 220,00 por</h3>
+                            <p>US$ 300,00</p>
+                        </div>
+                    </div>
+                    <div class="m-item-box"> <img src="images/bbq-4.png" alt="Kachi BBQ">
+                        <div class="m-item-des">
+                            <h3>Kachi BBQ</h3>
+                            <p>Tamanho: Médio Pequeno Grande Especiarias: Regular Apimentado Médio</p>
+                        </div>
+                        <div class="m-item-price">
+                            <h3>De $220.00 por</h3>
+                            <p>$300.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonials-->
+    <section class="testimonials" id="testimonials">
+        <h2 class="heading container">testimonials</h2>
+        <div class="testimonials-content container">
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amizing burger chains we have eaten at! Customer
+                    service is also good. Beautiful presentation, amazing taste, and
+                    good staff, awesome. Their mac mince cheeseburger with alove sauce
+                    is very tasty.''
+                </p>
+                <div class="profile">
+                    <img src="images/profile-1.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo bator</h3>
+                        <span>Hair Stylist</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amizing burger chains we have eaten at! Customer
+                    service is also good. Beautiful presentation, amazing taste, and
+                    good staff, awesome. Their mac mince cheeseburger with alove sauce
+                    is very tasty.''
+                </p>
+                <div class="profile">
+                    <img src="images/profile-2.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo bator</h3>
+                        <span>Hair Stylist</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amizing burger chains we have eaten at! Customer
+                    service is also good. Beautiful presentation, amazing taste, and
+                    good staff, awesome. Their mac mince cheeseburger with alove sauce
+                    is very tasty.''
+                </p>
+                <div class="profile">
+                    <img src="images/profile-3.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo bator</h3>
+                        <span>Hair Stylist</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>"Truly one of the amizing burger chains we have eaten at! Customer
+                    service is also good. Beautiful presentation, amazing taste, and
+                    good staff, awesome. Their mac mince cheeseburger with alove sauce
+                    is very tasty.''
+                </p>
+                <div class="profile">
+                    <img src="images/profile-4.png" alt="">
+                    <div class="profile-data">
+                        <h3>Alfredo bator</h3>
+                        <span>Hair Stylist</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--NewsLetter-->
+    <section class="newsletter container" id="newsletter">
+        <h2>Subscribe and Get 10% Discount</h2>
+        <p>Be the first to get the latest news, promotions and much more.</p>
+        <form action="">
+            <input type="email" name="" id="" class="email" placeholder="Email" required>
+            <input type="submit" value="Subscribe" class="s-btn">
+        </form>
+    </section>
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-content container">
+            <div class="footer-box">
+                <a href="#" class="footer-logo">
+                    <img src="images/logo1.png" alt="">
+                </a>
+                <p>925 Bald Hill St, Asheville, NC 28803</p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest-alt'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Opening Hours</h3>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+                <p><span>Mon</span>: 9:00 - 20:30</p>
+            </div>
+            <div class="footer-box">
+                <h3>Information</h3>
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Pesto's Gallery</a>
+                <a href="#">Pesto's Talent Chefs</a>
+                <a href="#">Testimonials</a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Link para JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
